@@ -1,0 +1,110 @@
+.work {
+  letter-spacing: 1px;
+  margin: auto;
+  margin: 3rem;
+}
+
+.work-container {
+  letter-spacing: 1px;
+  max-width: 1150px;
+  margin: 3rem 2rem;
+  margin: auto;
+}
+.work h1 {
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.works {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 2rem;
+}
+
+figure.item {
+  max-width: 400px;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  margin: auto;
+}
+figure.item img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+figure.item .overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+  background: #222222;
+
+  overflow: hidden;
+}
+
+.overlay i {
+  margin: 70px 10px 0;
+  font-size: 2rem;
+  color: #ddd;
+}
+.overlay p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5rem;
+  background: blue;
+  color: #ffffff;
+  line-height: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+figure:hover .overlay {
+  display: block;
+}
+
+@media screen and (max-width: 968px) {
+  .works {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .works {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .work-container {
+    margin: 3rem 2rem;
+  }
+
+  figure.item {
+    width: 300px;
+    height: 150px;
+    position: relative;
+    margin: auto;
+  }
+  .overlay p {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+  }
+  .overlay i {
+    margin-top: 50px;
+    font-size: 1.7rem;
+  }
+}
