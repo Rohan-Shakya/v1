@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+body {
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #4f4f91;
+  color: #fff;
+}
+
+.resume {
+  background: url('/images/home.jpg') center center/cover no-repeat;
+  background-attachment: fixed;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resume h2 {
+  color: #dddddd;
+  margin: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.experience,
+.about,
+.passion,
+.contact,
+.work {
+  text-align: center;
+  letter-spacing: 1px;
+}
