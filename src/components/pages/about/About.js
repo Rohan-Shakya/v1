@@ -16,7 +16,7 @@ export const About = () => {
               className='animate__animated animate__wobble'
             />
             <p>
-              Hey! My name is Brittany and I'm a web developer with a passion
+              Hey! My name is Rohan and I'm a web developer with a passion
               for front end development and design. I'm currently a first year
               student at{' '}
               <span style={{ color: 'blue' }}>

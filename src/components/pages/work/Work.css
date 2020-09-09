@@ -89,11 +89,14 @@ figure:hover .overlay {
 
 @media screen and (max-width: 500px) {
   .work-container {
-    margin: 3rem 2rem;
+    margin: 3rem auto;
+  }
+  .work {
+    margin: 2rem;
   }
 
   figure.item {
-    width: 300px;
+    width: 100%;
     height: 150px;
     position: relative;
     margin: auto;
