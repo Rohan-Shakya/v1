@@ -1,0 +1,31 @@
+.btn {
+  width: 110px;
+  height: 40px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+}
+
+.btn-outline-white {
+  background: transparent;
+  border: 2px solid #dddddd;
+  color: #ddd;
+  transition: all 0.3s ease-in-out;
+}
+.btn-outline-white:hover {
+  background: rgb(110, 110, 110);
+  width: 130px;
+}
+
+.btn-outline-dark {
+  background: transparent;
+  border: 2px solid #6e6e6e;
+  color: #222222;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-dark:hover {
+  background: rgb(189, 189, 189);
+  width: 120px;
+}
