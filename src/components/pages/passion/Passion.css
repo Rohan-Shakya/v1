@@ -1,0 +1,64 @@
+.passion {
+  background: #f0f0f0;
+  padding: 3rem 2rem;
+}
+
+.passion-container {
+  margin: 2.8rem;
+}
+
+.passion h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.passion-card {
+  margin-top: 2rem;
+}
+.passion-card-items {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 2rem;
+}
+.passion-card-item {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+.fa-laptop,
+.fa-code,
+.fa-lightbulb {
+  width: 180px;
+  height: 180px;
+  background: rgb(45, 45, 111);
+  font-size: 3rem;
+  border-radius: 50%;
+  line-height: 180px;
+  color: #ddd;
+}
+
+.fa-laptop:hover,
+.fa-code:hover,
+.fa-lightbulb:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-in-out;
+}
+
+.passion-card-item > h3 {
+  font-weight: bold;
+  margin: 1.5rem auto;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .passion {
+    padding: 2rem 0;
+  }
+  .passion-container {
+    margin: 1rem;
+    letter-spacing: 1px;
+  }
+  .passion-card-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 2rem;
+  }
+}
