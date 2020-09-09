@@ -1,0 +1,55 @@
+.about {
+  padding: 3.5rem 1rem 1rem;
+}
+
+.about-container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.about img {
+  width: 200px;
+  border-radius: 50%;
+  margin: 1.5rem;
+}
+
+.description h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.description p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  line-height: 1.5rem;
+}
+
+.card {
+  width: 95%;
+  margin: 2rem auto;
+  background: #ddd;
+  padding: 2rem 1rem;
+}
+.card-items {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin: 1rem 10px;
+}
+.card-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+.icons {
+  font-size: 2.5rem;
+  color: #555555;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .icons {
+    font-size: 2rem;
+  }
+}
